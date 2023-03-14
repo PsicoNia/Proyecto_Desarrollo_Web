@@ -1,0 +1,179 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+/* INDEX*/
+/* Estilo para todo el cuerpo del sitio */
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #140522;
+}
+
+/* Encabezado */
+header.main {
+    background-color: #140522;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo para el logo del encabezado */
+.img_logo {
+    height: 100px;
+}
+
+/* Estilo para la lista de navegación en el encabezado */
+.navbar-expand-lg {
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo para la sección de perfil */
+.container_perfil {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container_perfil_img {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto img {
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+h1 span {
+    color: #f3249b;
+    margin-right: 1rem;
+}
+
+.container_perfil h3 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #23d0f0;
+    padding-top: 0;
+}
+
+img.img_perfil {
+    max-width: 400px;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+    width: 1500px;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+/* Estilo para el pie de página */
+#footer {
+    background-color: #f3249b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.final {
+    display: inline-block;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.red img {
+    width: 30px;
+    height: 30px;
+}
+
+/* SOBRE_MI */
+h2 {
+    color: #f3249b;
+    font-size: 5rem;
+    text-align: center;
+    width: 1500px;
+    /* margin: 0 auto; */
+    padding-top: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: justify;
+    color: #23d0f0;
+    padding-top: 2rem;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    color: #23d0f0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.experiencia {
+    text-align: center;
+}
+
+
+img.img_sobre {
+    max-width: 600px;
+    height: auto;
+padding-top: 2rem;
+}
